@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>时钟</title>
+<style>
+ #imgs{
+	 	width: 350px;
+	 	height: 350px;
+	 	border-radius: 50%;
+	 	border: 3px solid #0f0;
+	 	background-color:#f00;
+	 	margin: 100px auto;
+	 	line-height: 350px;
+	 	text-align: center;
+     } 
+</style>
+<script>
+window.onload=function ()
+{  //获取页面中的图片
+	var imgs=document.getElementsByTagName('img');
+	function clock(){
+		//得到当前时间
+		var oDate=new Date();
+		// 2016,10,28,8,3,2
+		//定义一个变量，将得到的时分秒赋值给它
+		var str=insert0(oDate.getHours())+insert0(oDate.getMinutes())+insert0(oDate.getSeconds());	
+		for(var i=0;i<imgs.length;i++)
+		{   //得到str中每张图片的位置
+			imgs[i].src='img/'+str.charAt(i)+'.png';
+		}
+	}	
+setInterval(clock, 1000);
+
+	clock();
+		function insert0(n)
+	{
+		if(n<10)
+		{
+			return '0'+n;
+		}
+		else
+		{
+			return ''+n;
+		}
+	}
+
+};
+
+</script>
+</head>
+
+<body style="color: white; font-size:50px;">
+<div id="imgs">
+<img src="img/0.png" />
+<img src="img/0.png" />
+:
+<img src="img/0.png" />
+<img src="img/0.png" />
+:
+<img src="img/0.png" />
+<img src="img/0.png" />
+</div>
+</body>
+</html>
