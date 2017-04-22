@@ -1,0 +1,306 @@
+/* 主题部分CSS */
+/*主体部分大容器*/
+#main{
+	width:1210px;
+	margin:0 auto;
+}
+/*标题*/
+#main>p.title{
+	font-size:16pt;
+	color:#666;
+	font-weight:bold;
+}
+/*副标题*/
+#main>p.title>span{
+	font-style:italic;
+}
+/*展示图片盒子*/
+#main>ul.showbox{
+	overflow:hidden;
+}
+/*每一个小格子*/
+#main>ul.showbox>li{
+	float:left;
+	width:297px;
+	height:190px;
+	position:relative;
+}
+/*透明背景*/
+#main>ul.showbox>li>b{
+	display:block;
+	width:45%;
+	height:190px;
+	background-color:white;
+	opacity:0.7;
+}
+/*包裹文字的盒子*/
+#main>ul.showbox>li>div{
+	position:absolute;
+	top:0;
+	left:0;
+	margin-top:10px;
+	padding:20px;
+}
+/*第一行标题*/
+#main>ul.showbox>li>div>h3{
+	font-size:18px;
+	color:#50504c;
+	font-weight:bold;
+}
+/*第二行标题*/
+#main>ul.showbox>li>div>h4{
+	font-size:13px;
+	color:#666;
+}
+/*第三行文字*/
+#main>ul.showbox>li>div>p{
+	color:#e4393c;
+}
+/*最后一行文字背景*/
+#main>ul.showbox>li>div>span{
+	color:#fff;
+	background:#E4393C;
+	display:block;
+	text-align:center;
+}
+/*团购价*/
+#main>ul.showbox>li div.tgj{
+	color:#888;
+	width:95px;
+	height:70px;
+	/*参团背景*/
+	background:url(images/index/cantuan.png) no-repeat left bottom;
+	margin-top:20px;
+}
+/*团购价价钱部分*/
+#main>ul.showbox>li div.tgj>span{
+	color:#e4393c;
+	font-size:24px;
+}
+/*二级小文字*/
+#main>ul.showbox>li>div>ul{
+	margin-top:20px;
+	color:#888;
+}
+/*二级小文字前面小点*/
+#main>ul.showbox>li>div i{
+	float:left;
+	width:2px;
+	height:2px;
+	background-color:#888;
+	margin:7px;
+}
+/*品牌街图片*/
+#main>ul.showbox>li.ppj{
+	background:url(images/index/show_01.jpg) no-repeat;
+}
+/*天天低价图片*/
+#main>ul.showbox>li.ttdj{
+	background:url(images/index/show_02.jpg) no-repeat;
+}
+/*好东西图片*/
+#main>ul.showbox>li.hdx{
+	background:url(images/index/show_03.jpg) no-repeat;
+}
+/*京东首发图片*/
+#main>ul.showbox>li.jdsf{
+	background:url(images/index/show_05.jpg) no-repeat;
+}
+/*优惠券图片*/
+#main>ul.showbox>li.yhq{
+	background:url(images/index/show_06.jpg) no-repeat;
+}
+/*京东预售*/
+#main>ul.showbox>li.jdys{
+	background:url(images/index/show_07.jpg) no-repeat;
+}
+/*金融精选*/
+#main>ul.showbox>li.jrjx{
+	background:url(images/index/show_08.jpg) no-repeat;
+}
+/*今日团购图片*/
+#main>ul.showbox>li.jrtg{
+	background:url(images/index/show_04.png) no-repeat;
+}
+/* 下边小广告列表 */
+#main>ul.ad{
+	overflow:hidden;
+}
+#main>ul.ad{
+	margin-top:10px;
+}
+/*小格子属性*/
+#main>ul.ad>li{
+	float:left;
+	height:70px;
+	margin-right:10px;
+}
+#main>ul.ad>li.last{
+	margin-right:0;
+}
+/*图片宽高*/
+#main>ul.ad>li img{
+	width:396px;
+	height:70px;
+}
+
+/* -------------盖楼样式开始-------------- */
+/*一楼大框架*/
+div.floor{
+	height:404px;
+	margin-top:10px;
+}
+/*一楼头部*/
+div.floor>header{
+	height:40px;
+}
+/* 楼号 */
+div.floor>header>span{
+	float:left;
+	background:url(Images/index/index_iconlist_01.png) no-repeat;
+	width:26px;
+	height:38px;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	text-align:center;
+	line-height:30px;
+	border-bottom:2px solid #aaa;
+}
+div.floor>header>span:hover{
+	background-position:-39px 0;
+}
+/* 楼层标题 */
+div.floor>header>p{
+	float:left;
+	width:150px;
+	color:#666;
+	font-size:22px;
+	font-weight:bold;
+	padding:5px 0 4px 30px;
+	border-bottom:2px solid #aaa;
+}
+div.floor>header>ul.tab{
+	float:left;
+}
+div.floor>header>ul.tab>li{
+	float:left;
+	width:158px;
+
+}
+div.floor>header>ul.tab>li>a{
+	display:block;
+	width:158px;
+	height:23px;
+	margin-top:15px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:2px solid #aaa;
+}
+/*点击给a标签加小箭头*/
+div.floor>header>ul.tab>li>a:hover{
+	border-bottom-color:#E4393C;
+	background:url(Images/index/tab_arraw.png) no-repeat center bottom;
+	text-decoration:none;
+}
+/*超链接部分*/
+div.floor>header>ul.link{
+	float:left;
+	overflow:hidden;
+	margin-top:16px;
+}
+/*给超链接加图片*/
+div.floor>header>ul.link>li{
+	float:left;
+	background:url(Images/index/link_arraw.png) no-repeat right top;
+	padding-bottom:6px;
+	padding-right:18px;
+	padding-left:20px;
+	border-bottom:2px solid #aaa;
+}
+div.floor>header>ul.link>li>a{
+	color:#005ea7;
+}
+/* 楼层内容区 左边*/
+div.floor>aside{
+	float:left;
+	width:209px;
+	height:361px;
+	border-right:1px solid #f1f1f1;
+	border-bottom:1px solid #ddd;
+}
+div.floor>aside ul{
+	padding-top:5px;
+	padding-left:15px;
+}
+/*右边栏文字*/
+div.floor>aside ul>li{
+	width:50%;
+	line-height:25px;
+	float:left;
+}
+/*中间广告图片主体部分*/
+div.floor>section{
+	float:left;
+	width:790px;
+	height:361px;
+}
+
+/* 中间内容 第一行第一张图片大框*/
+div.floor>section>dl{
+	width:157px;
+	height:180px;
+	border-right:1px solid #f1f1f1;
+	border-bottom:1px solid #ddd;
+	float:left;
+}
+/*第一张图片*/
+div.floor>section>dl>dt{
+	padding-top:10px;
+	text-align:center;
+}
+/*第一张图片下边文字*/
+div.floor>section>dl>dd{
+	margin:0 10px;
+	height:40px;
+	line-height:18px;
+}
+/*第二张大图*/
+div.floor>section>div{
+	width:473px;
+	height:180px;
+	border-right:1px solid #f1f1f1;
+	border-bottom:1px solid #ddd;
+	float:left;
+}
+/*右侧品牌栏*/
+div.floor>aside.floor_right {
+    padding-right:1px;
+    border-right:none;
+}
+/*小图标部分*/
+div.floor>aside.floor_right ul {
+    padding:0px;
+    margin:0px;
+}
+/*每个小图标*/
+div.floor>aside.floor_right ul li {
+	margin:0px;
+	padding:0px;
+	width:104px;
+	height:35px;
+	float:left;
+	text-align:center;
+	border-top:1px dotted #f1f1f1;
+}
+/*小图标图片*/
+div.floor>aside.floor_right ul li  img {
+     width:98px;
+     height:35px;
+}
+/*下面的大图片*/
+div.floor>aside.floor_right>a> img {
+     width:209px;
+     height:181px;
+}

@@ -1,0 +1,199 @@
+/* banner相关样式 */
+/*中间广告区域*/
+#banner{
+	width:1210px;
+	margin:0 auto;
+	overflow:hidden;
+}
+/*全部商品分类*/
+#cat_box{
+	width:203px;
+	height:402px;
+	background:#FAFAFA;
+	border:2px solid #E4393C;
+	border-top:none;
+	float:left;
+	padding:4px 3px 3px 0;
+}
+/*每一行文字内容*/
+#cat_box>li{
+	height:28px;
+	line-height:28px;
+	padding-left:10px;
+	border-bottom:1px solid #FAFAFA;	
+	border-top:1px solid #FAFAFA;	
+}
+/*鼠标放上去样式*/
+#cat_box>li:hover{
+	border-top-color:#DDD;	
+	border-bottom-color:#DDD;
+	background:white;
+}
+
+/* 中间广告区域 */
+#slider_box{
+	float:left;
+	width:670px;
+	margin-left:10px;
+	margin-top:10px;
+}
+/*上边大图框*/
+#slider{
+	width:670px;
+	height:240px;
+	position:relative;
+}
+/*上边大图图片*/
+#slider>img{
+	width:670px;
+	height:240px;
+}
+/*几个指示点*/
+#slider>ul{
+	position:absolute;
+	bottom:16px;
+	right:30px;
+}
+/*单个点*/
+#slider>ul>li{
+	display:inline-block;
+	width:22px;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	background:#3e3e3e;
+	color:#fff;
+	border-radius:50%;
+	cursor:pointer;
+	margin-left:5px;
+}
+
+/* ad部分 */
+/*下边三个广告*/
+#slider_box>div.ad{
+	width:668px;
+	height:160px;
+	border:1px solid #EEE;
+	border-top:none;
+	overflow:hidden;
+}
+/*所有内容左浮动*/
+#slider_box>div.ad>div.preview,
+#slider_box>div.ad>div.next,
+#slider_box>div.ad>ul,
+#slider_box>div.ad>ul>li{
+	float:left;
+}
+/*两边方向箭头*/
+#slider_box>div.ad>div.preview,
+#slider_box>div.ad>div.next{
+	width:30px;
+	height:160px;
+}
+/*三张图片*/
+#slider_box>div.ad>ul>li{
+	padding:10px;
+}
+#slider_box>div.ad>div.preview>a,
+#slider_box>div.ad>div.next>a
+{
+	background-image:url(images/index/ad-arraw.png);
+	background-repeat:no-repeat;
+	display:block;
+	width:25px;
+	height:35px;
+	margin-top:65px;
+	margin-left:3px
+}
+#slider_box>div.ad>div.preview>a:hover,
+#slider_box>div.ad>div.next>a:hover{
+	background-image:url(images/index/ad-arraw-hover.png);
+}
+/*右边箭头*/
+#slider_box>div.ad>div.next>a,
+#slider_box>div.ad>div.next>a:hover
+{
+	background-position:0 -37px;
+}
+/* 右侧新闻区 */
+#focus_extra{
+	float:left;
+	margin-left:10px;
+	padding-top:10px;
+}
+/*第一张图片*/
+#focus_extra div.ad img{
+	width:310px;
+	height:70px;
+}
+/*新闻*/
+#news{
+	width:310px;
+	height:145px;
+	margin-top:10px;
+}
+/*新闻标题*/
+#news div.title{
+	padding-bottom:5px;
+	overflow:hidden;
+}
+/*标题左边*/
+#news div.title span{
+	float:left;
+	font-weight:bold;
+	font-size:14px;
+}
+/*右边标题*/
+#news div.title a{
+	float:right;
+}
+/* 新闻快报 */
+#news div.context{
+	border:1px solid #f1f1f1;
+	border-top:2px solid #aaa;
+	width:308px;
+	overflow:hidden;
+	padding:10px;
+}
+#news div.context ul{
+	float:left;
+}
+#news div.context ul li{
+	margin-bottom:8px;}
+/*新闻右边*/
+#news div.context ul.rt{
+	border-left:1px solid #f1f1f1;
+	margin-left:15px;
+	padding-left:15px;
+}
+
+/* 虚拟物品 */
+#virtuals{
+	width:308px;
+	height:166px;
+	margin-top:5px;
+	border-left:1px solid #f1f1f1;
+	border-bottom:1px solid #f1f1f1;
+}
+/*每一小格*/
+#virtuals ul li{
+	float:left;
+	width:75px;
+	height:84px;
+	text-align:center;
+	border-top:1px solid #f1f1f1;
+	border-right:1px solid #f1f1f1;
+}
+/*图标*/
+#virtuals ul li b{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/index/virtuals.png) no-repeat;
+	margin-top:10px;
+	margin-left:20px;
+}
+/*小飞机图标*/
+#virtuals ul li #huafei{
+	background-position:0px -48px;
+}

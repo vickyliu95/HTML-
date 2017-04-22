@@ -1,0 +1,28 @@
+/*页脚*/
+#footer {
+	width:1210px;
+    height:180px;
+    text-align:center;
+    font-size:12px;
+    margin:22px auto;
+}
+
+.copyright {
+    width:800px;
+    margin:0px auto;
+    margin-top:12px;
+    line-height:20px;
+}
+.links a {
+    margin:0px 10px;
+}
+.authentication {
+    margin:12px auto;
+    width:532px;
+}
+.authentication a {
+    margin:10px 12px;
+    float:left;
+}
+#footer a:hover {color:#ff0700;}
+
